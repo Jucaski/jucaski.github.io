@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technologies on Jucaski</title>
-    <link>http://example.org/technology/</link>
+    <link>/technology/</link>
     <description>Recent content in Technologies on Jucaski</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://example.org/technology/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to do a hugo blog and not die while trying</title>
-      <link>http://example.org/technology/step-to-step/hugo-blog/</link>
+      <link>/technology/step-to-step/hugo-blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/technology/step-to-step/hugo-blog/</guid>
+      <guid>/technology/step-to-step/hugo-blog/</guid>
       <description>.</description>
     </item>
     
     <item>
       <title>Vim</title>
-      <link>http://example.org/technology/code-editor/vim/</link>
+      <link>/technology/code-editor/vim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/technology/code-editor/vim/</guid>
+      <guid>/technology/code-editor/vim/</guid>
       <description>This section contains all my current projects.</description>
     </item>
     

@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jucaski</title>
-    <link>http://example.org/</link>
+    <link>/</link>
     <description>Recent content on Jucaski</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to do a hugo blog and not die while trying</title>
-      <link>http://example.org/technology/step-to-step/hugo-blog/</link>
+      <link>/technology/step-to-step/hugo-blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/technology/step-to-step/hugo-blog/</guid>
+      <guid>/technology/step-to-step/hugo-blog/</guid>
       <description>.</description>
       
     </item>
     
     <item>
       <title>Vim</title>
-      <link>http://example.org/technology/code-editor/vim/</link>
+      <link>/technology/code-editor/vim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/technology/code-editor/vim/</guid>
+      <guid>/technology/code-editor/vim/</guid>
       <description>This section contains all my current projects.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://example.org/technology/code-editor/vim/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/technology/code-editor/vim/featured.jpg" />
     </item>
     
   </channel>
