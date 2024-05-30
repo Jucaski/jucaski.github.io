@@ -1342,3 +1342,130 @@ A specific kind of data attribute that tells what kind of value the data is.
 - Number
 - Text or string
 - Boolean
+
+
+### Wide data
+Data in which every data subject has a single row with multiple columns to hold the values of various attributes of the subject. Easier to compare.
+
+#### Long data 
+Data in which each row is one time point per subject, so each subject will have data in multiple rows.
+
+Data -> Collection of facts.
+
+
+Data transformation usually involves:
+
+-   Adding, copying, or replicating data
+-   Deleting fields or records
+-   Standardizing the names of variables
+-   Renaming, moving, or combining columns in a database
+-   Joining one set of data with another
+-   Saving a file in a different format. For example, saving a spreadsheet as a comma separated values (.csv) file.
+
+Goals for data transformation might be:
+
+-   Data **organization**: better organized data is easier to use
+    
+-   Data **compatibility**: different applications or systems can then use the same data
+    
+-   Data **migration**: data with matching formats can be moved from one system to another
+    
+-   Data **merging**: data with the same organization can be merged together
+    
+-   Data **enhancement**: data can be displayed with more detailed fields
+    
+-   Data **comparison**: apples-to-apples comparisons of the data can then be made.
+
+**Wide data is preferred when**
+- Creating tables and charts with a few variables about each subject.
+- Comparing straightforward line graphs
+
+**Long data is preferred when**
+
+- Storing a lot of variables about each subject. For example, 60 years worth of interest rates for each bank
+- Performing advanced statistical analysis or graphing
+
+**Field:** A single piece of information from a row or column of a spreadsheet;  in a data table, typically a column in the table.
+
+#### Bias
+A preference in favor of or against a person, group of people, or thing.
+#### Data bias
+A type of error that systematically skews results in a certain direction.
+
+#### Sampling bias
+When a sample isn't representative of the population as a whole.
+
+#### unbiased sampling
+When a sample is representative of the population being measured
+
+#### Observer bias (Experimenter bias/ research bias)
+The tendency for different people to observe things differently.
+
+#### Interpretation bias
+The tendency to always interpret ambiguos situations in a positive or negative way.
+#### Confirmation bias
+The tendency to search for or interpret information in a way that confirms pre-existing beliefs.
+
+### Types of data bias
+- Sampling bias
+- Observer bias
+- Interpretation bias
+- Confirmation bias
+
+### Good data sources ( ROCCC)
+Reliable - Good data sources are reliable
+Original - Validate the data with the original source
+Comprehensive - The best data sources contain all critical information needed to answer the question or find the solution.
+Current - The best data sources are current and relevant to the task at hand.
+Cited - Cited makes the information you're providing more credible.
+
+### Bad data sources ( ROCCC)
+Not Reliable - Bad data can't be trusted because it's inaccurate, incomplete, or biased.
+Not Original - If can't locate the original data source and you're just relying on second or third party information, that can signal you may need be extra careful in understanding your data.
+Not Comprehensive - Dab data sources are missing important information needed to answer the question of find the solution.
+Not Current - Bad data sources are out of date and irrelevant.
+Not Cited - If your source hasn't been cited or vetted it's a no-go.
+
+#### Ethics
+Well-founded standards of right and wrong that prescribe what humans ought to do, usually in terms of rights, obligations, benefits to society, fairness, or specific virtues.
+
+#### Data ethics
+Well-founded standards of right and wrong that dictate how data is collected, shared, and used.
+
+#### GDPR
+General Data Protection Regulation of the European Union.
+
+#### Aspects of data ethics
+- Ownership
+- Transaction transparency
+- Consent
+- Currency
+- Privacy
+- Openness
+
+
+###### Ownership
+Individuals own the raw data they provide and they have primary control over its usage, how it's processed, and how it's shared.
+
+###### Transaction transparency
+All data-processing activities and algorithms should be completely explainable and understood ny the individual who provides their data.
+
+###### Consent
+ An individual's right to know explicit details about how and why their data will be used before agreeing to provide it.
+###### Currency
+Individuals should be aware of financial transactions resulting from the use of their personal data and the scale of these transactions.
+###### Privacy
+Preserving a data subject's information and activity any time a data transaction occurs.
+ - Protection from unauthorized access to oour private data
+ - Freedom from inappropriate use our data.
+ - The right to inspect, update, or correct our data.
+ - Ability to give consent to use our data
+ - Legal right to access the data    
+###### Openness
+Free access, usage, and sharing of data.
+- Availability and access- Open data must be available as a whole preferably by downloading over the internet on a convenient and modifiable form.
+- Reuse and redistribution - including to use it with other datasets.
+- Universal participation. Everyone must be able to use, reuse, and redistribute the data. 
+
+##### Data interoperability
+The ability of data systems and services to openly connect and share data
