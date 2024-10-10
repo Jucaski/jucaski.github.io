@@ -1524,3 +1524,441 @@ The ability of data systems and services to openly connect and share data
 **Transaction transparency:** The aspect of data ethics that presumes all data-processing activities and algorithms should be explainable and understood by the individual who provides the data
 
 **Unbiased sampling:** When the sample of the population being measured is representative of the population as a whole
+
+## Database
+
+### metadata
+Data about data
+
+### Relational database
+A database that contains a series of related tables that can be connected via their relationships.
+
+Primary Key
+An identifier that references a column in which each value is unique.
+
+Foreign Key 
+A field within a table that is a primary key in another table
+
+Metadata i used in database management to help data analysts interpret the contents of the data within the database
+
+3 common types of metadata:
+- Descriptive: Metadata that describes a piece of data and can be used to identify it at a later point in time (ISBN in a book)
+- Structural: Metadata that indicates how a piece of data is organized and whether it is part of one, or more than one, data collection. (Like the index in a book)
+- Administrative: Metadata that indicates the technical source of a digit asset (Like the type of photo it is)
+
+
+Metadata helps data analysts confirm their data is reliable by making sure it is:
+
+-   Accurate
+    
+-   Precise
+    
+-   Relevant
+    
+-   Timely
+### Consistency
+When a database is consistent, it’s easier to discover relationships between the data inside the database and data that exists elsewhere. When data is uniform, it is:
+
+-   Organized: Data analysts can easily find tables and files, monitor the creation and alteration of assets, and store metadata.
+    
+-   Classified: Data analysts can categorize data when it follows a consistent format, which is beneficial in cleaning and processing data.
+    
+-   Stored: Consistent and uniform data can be efficiently stored in various data repositories. This streamlines storage management tasks such as managing a database.
+    
+-   Accessed: Users, applications, and systems can efficiently locate and use data.
+
+Metadata repositories are used to store metadata—including data from second-party and third-party companies. These repositories describe the state and location of the metadata, the structure of the tables inside it, and who has accessed the repository. Data analysts use metadata repositories to ensure that they use the right data appropriately.
+
+Metadata is stored in a single, central location, and gives the company standardized information about all of its data.
+
+Data governance
+A process to ensure the formal management of a company's data assets
+
+Internal Data
+Data that lives within a company's own systems
+External Data
+Data that lives and is generated outside an organization
+
+Openness (Open data)
+Free access, usage, and sharing of data
+
+CSV - comma-separated values
+Saves data in a table format
+
+Sorting data
+Arranging data into a meaningful order to make it easier to understand, analyze, and visualize
+
+Filtering 
+Showing only the data that meets a specific criteria while hiding the rest
+
+Data Manipulation Language (DML operations)
+
+
+
+
+
+## **Terms and definitions for Course 3, Module 3**
+
+**Administrative metadata:** Metadata that indicates the technical source of a digital asset
+
+**CSV (comma-separated values) file:** A delimited text file that uses a comma to separate values
+
+**Data governance:** A process for ensuring the formal management of a company’s data assets
+
+**Descriptive metadata:** Metadata that describes a piece of data and can be used to identify it at a later point in time
+
+**Foreign key:** A field within a database table that is a primary key in another table (Refer to primary key)
+
+**FROM:** The section of a query that indicates where the selected data comes from
+
+**Geolocation:** The geographical location of a person or device by means of digital information
+
+**Metadata:** Data about data
+
+**Metadata repository:** A database created to store metadata
+
+**Naming conventions:** Consistent guidelines that describe the content, creation date, and version of a file in its name
+
+**Normalized database:** A database in which only related data is stored in each table
+
+**Notebook:** An interactive, editable programming environment for creating data reports and showcasing data skills
+
+**Primary key:** An identifier in a database that references a column in which each value is unique (Refer to foreign key)
+
+**Redundancy:** When the same piece of data is stored in two or more places
+
+**Schema:** A way of describing how something, such as data, is organized
+
+**SELECT:** The section of a query that indicates the subset of a dataset
+
+**Structural metadata:** Metadata that indicates how a piece of data is organized and whether it is part of one or more than one data collection
+
+**WHERE:** The section of a query  that specifies criteria that the requested data must meet
+
+**World Health Organization:** An organization whose primary role is to direct and coordinate international health within the United Nations system
+
+
+
+### Benefits of organizing data
+- Makes it easier to find and use
+- Helps you avoid making mistakes during your analysis
+- Helps to protect your data
+
+### Best practices when organizing data
+- Naming conventions: Consistent guidelines that describe the content, date, or version of a file in its name (Use logical and descriptive names for your files to make them easier to find and use)
+- Foldering: Move old projects to a separate location to create an archive and cut down on clutter
+- Archiving older files
+- Align you naming and storage practices with you team
+- Develop metadata practices
+
+
+*Think about how often you0re making copies of data and storing it in different places*
+
+File names should include:
+
+-   The project’s name
+    
+-   The file creation date
+    
+-   Revision version
+    
+-   Consistent style and orde
+
+
+### Data security
+Protecting data from unauthorized access or corruption by adopting safety measures.
+
+
+**Encryption** uses a unique algorithm to alter data and make it unusable by users and applications that don’t know the algorithm. This algorithm is saved as a “key” which can be used to reverse the encryption; so if you have the key, you can still use the data in its original form.
+
+**Tokenization** replaces the data elements you want to protect with randomly generated data referred to as a “token.” The original data is stored in a separate location and mapped to the tokens. To access the complete original data, the user or application needs to have permission to use the tokenized data and the token mapping. This means that even if the tokenized data is hacked, the original data is still safe and secure in a separate location.
+
+
+**Access control:** Features such as password protection, user permissions, and encryption that are used to protect a spreadsheet
+
+**Data security:** Protecting data from unauthorized access or corruption by adopting safety measures
+
+**Inbox:** Electronic storage where emails received by an individual are held
+
+
+### Networking 
+Professional relationship building
+
+## Data integrity
+The accuracy, completeness, consistency, and trustworthiness of data throughout its lifecycle.
+
+#### Data replication 
+The process of storing data in multiple locations. 
+
+#### Data transfer
+The process of copying data from a storage device to memory, or from one computer to another.
+
+#### Data manipulation
+The process of changing data to make it more organized and easier to read.
+
+
+-   **Data replication compromising data integrity:** Continuing with the example, imagine you ask your international counterparts to verify dates and stick to one format. One analyst copies a large dataset to check the dates. But because of memory issues, only part of the dataset is actually copied. The analyst would be verifying and standardizing incomplete data. That partial dataset would be certified as compliant but the full dataset would still contain dates that weren't verified. Two versions of a dataset can introduce inconsistent results. A final audit of results would be essential to reveal what happened and correct all dates.
+    
+-   **Data transfer compromising data integrity:** Another analyst checks the dates in a spreadsheet and chooses to import the validated and standardized data back to the database. But suppose the date field from the spreadsheet was incorrectly classified as a text field during the data import (transfer) process. Now some of the dates in the database are stored as text strings. At this point, the data needs to be cleaned to restore its integrity.
+    
+-   **Data manipulation compromising data integrity:** When checking dates, another analyst notices what appears to be a duplicate record in the database and removes it. But it turns out that the analyst removed a unique record for a company’s subsidiary and not a duplicate record for the company. Your dataset is now missing data and the data must be restored for completeness.
+
+
+**The most common limitations you'll come across and some ways you can address them.**
+- You can identify trends with the available data or wait for more data if time allows;
+- you can talk with stakeholders and adjust your objective; 
+- or you can look for a new data set.
+
+
+## Data issue 1: no data
+
+Possible Solutions
+
+Examples of solutions in real life
+
+Gather the data on a small scale to perform a preliminary analysis and then request additional time to complete the analysis after you have collected more data.
+
+If you are surveying employees about what they think about a new performance and bonus plan, use a sample for a preliminary analysis. Then, ask for another 3 weeks to collect the data from all employees.
+
+If there isn’t time to collect data, perform the analysis using proxy data from other datasets. _This is the most common workaround._
+
+If you are analyzing peak travel times for commuters but don’t have the data for a particular city, use the data from another city with a similar size and demographic.
+
+## Data issue 2: too little data
+
+Possible Solutions
+
+Examples of solutions in real life
+
+Do the analysis using proxy data along with actual data.
+
+If you are analyzing trends for owners of golden retrievers, make your dataset larger by including the data from owners of labradors.
+
+Adjust your analysis to align with the data you already have.
+
+If you are missing data for 18- to 24-year-olds, do the analysis but note the following limitation in your report: _this conclusion applies to adults 25 years and older_  _only_.
+
+## Data issue 3: wrong data, including data with errors*
+
+Possible Solutions
+
+Examples of solutions in real life
+
+If you have the wrong data because requirements were misunderstood, communicate the requirements again.
+
+If you need the data for female voters and received the data for male voters, restate your needs.
+
+Identify errors in the data and, if possible, correct them at the source by looking for a pattern in the errors.
+
+If your data is in a spreadsheet and there is a conditional statement or boolean causing calculations to be wrong, change the conditional statement instead of just fixing the calculated values.
+
+If you can’t correct data errors yourself, you can ignore the wrong data and go ahead with the analysis if your sample size is still large enough and ignoring the data won’t cause systematic bias.
+
+If your dataset was translated from a different language and some of the translations don’t make sense, ignore the data with bad translation and go ahead with the analysis of the other data.
+
+_*** Important note:**_ _Sometimes data with errors can be a warning sign that the data isn’t reliable. Use your best judgment.
+
+
+### Sample size
+A part of a population that is representative of the population
+
+#### Random Sampling
+A way of selecting a sample from a population so that every posible type of the sample has a n equal chance of being chosen.    
+
+### Sample size
+
+**Population**
+
+The entire group that you are interested in for your study. For example, if you are surveying people in your company, the population would be all the employees in your company.
+
+**Sample**
+
+A subset of your population. Just like a food sample, it is called a sample because it is only a taste. So if your company is too large to survey every individual, you can survey a representative sample of your population.
+
+**Margin of error**
+
+Since a sample is used to represent a population, the sample’s results are expected to differ from what the result would have been if you had surveyed the entire population. This difference is called the margin of error. The smaller the margin of error, the closer the results of the sample are to what the result would have been if you had surveyed the entire population.
+
+**Confidence level**
+
+How confident you are in the survey results. For example, a 95% confidence level means that if you were to run the same survey 100 times, you would get similar results 95 of those 100 times. Confidence level is targeted before you start your study because it will affect how big your margin of error is at the end of your study.
+
+**Confidence interval**
+
+The range of possible values that the population’s result would be at the confidence level of the study. This range is the sample result +/- the margin of error.
+
+**Statistical significance**
+
+The determination of whether your result could be due to random chance or not. The greater the significance, the less due to chance.
+
+
+### Complete the following tasks before analyzing data:
+
+**1 Review data integrity**
+
+1. Determine data integrity by assessing the overall accuracy, consistency, and completeness of the data.
+
+2. Connect objectives to data by understanding how your business objectives can be served by an investigation into the data.
+
+3. Know when to stop collecting data.
+
+**2 Identify what makes data insufficient**
+Insufficient data has one or more of the following problems:
+
+-   Comes from only one source
+    
+-   Continuously updates and is incomplete
+    
+-   Is outdated
+    
+-   Is geographically limited
+
+**3 Deal with insufficient data**
+To deal with insufficient data, you can:
+
+-   Identify trends within the available data.
+    
+-   Wait for more data if time allows.
+    
+-   Discuss with stakeholders and adjust your objective.
+    
+-   Search for a new dataset.
+
+### Statistical power
+The probability of getting meaningful results from a test.
+
+### Hypothesis testing
+A way to see if a survey or experiments has meaningful results.
+
+### Confidence level
+The probability that your sample size accurately reflects the greater population.
+
+**Estimated response rate**: If you are running a survey of individuals, this is the percentage of people you expect will complete your survey out of those who received the survey.
+
+
+### Margin of error
+The maximum amount that the sample results are expected to differ from those of the actual population.
+The closer to zero the margin o error, the closer your results from your sample would match results from the overall population.
+
+More technically, the margin of error defines a range of values below and above the average result for the sample. The average result for the entire population is expected to be within that range. We can better understand margin of error by using some examples below.
+
+##### To calculate margin of error you need:
+- Population size
+- Sample size
+- Confidence level
+
+
+**Accuracy:** The degree to which the data conforms to the actual entity being measured or described
+
+**Completeness:** The degree to which the data contains all desired components or measures
+
+**Confidence interval:** A range of values that conveys how likely a statistical estimate reflects the population
+
+**Confidence level:** The probability that a sample size accurately reflects the greater population
+
+**Consistency:** The degree to which data is repeatable from different points of entry or collection
+
+**Cross-field validation:** A process that ensures certain conditions for multiple data fields are satisfied
+
+**Data constraints:** The criteria that determine whether a piece of a data is clean and valid
+
+**Data integrity:** The accuracy, completeness, consistency, and trustworthiness of data throughout its life cycle
+
+**Data manipulation:** The process of changing data to make it more organized and easier to read
+
+**Data range:** Numerical values that fall between predefined maximum and minimum values
+
+**Data replication:** The process of storing data in multiple locations
+
+**DATEDIF:** A spreadsheet function that calculates the number of days, months, or years between two dates
+
+**Estimated response rate**: The average number of people who typically complete a survey
+
+**Hypothesis testing:** A process to determine if a survey or experiment has meaningful results
+
+**Mandatory:** A data value that cannot be left blank or empty
+
+**Margin of error**: The maximum amount that the sample results are expected to differ from those of the actual population
+
+**Random sampling:** A way of selecting a sample from a population so that every possible type of the sample has an equal chance of being chosen
+
+**Regular expression (RegEx):** A rule that says the values in a table must match a prescribed pattern
+
+
+
+#### Data engineers 
+Transform data into a useful format for analysis and give it a reliable infrastructure.
+
+### Data warehousing specialists
+Develop processes and procedures to effectively store and organize data.
+
+
+### **Duplicate data**
+
+Description
+
+Possible causes
+
+Potential harm to businesses
+
+Any data record that shows up more than once
+
+Manual data entry, batch data imports, or data migration
+
+Skewed metrics or analyses, inflated or inaccurate counts or predictions, or confusion during data retrieval
+
+### **Outdated data**
+
+Description
+
+Possible causes
+
+Potential harm to businesses
+
+Any data that is old which should be replaced with newer and more accurate information
+
+People changing roles or companies, or software and systems becoming obsolete
+
+Inaccurate insights, decision-making, and analytics
+
+### **Incomplete data**
+
+Description
+
+Possible causes
+
+Potential harm to businesses
+
+Any data that is missing important fields
+
+Improper data collection or incorrect data entry
+
+Decreased productivity, inaccurate insights, or inability to complete essential services
+
+### **Incorrect/inaccurate data**
+
+Description
+
+Possible causes
+
+Potential harm to businesses
+
+Any data that is complete but inaccurate
+
+Human error inserted during data input, fake information, or mock data
+
+Inaccurate insights or decision-making based on bad information resulting in revenue loss
+
+### **Inconsistent data**
+
+Description
+
+Possible causes
+
+Potential harm to businesses
+
+Any data that uses different formats to represent the same thing
+
+Data stored incorrectly or errors inserted during data transfer
+
+Contradictory data points leading to confusion or inability to classify or segment customers
