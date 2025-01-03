@@ -20,3 +20,18 @@ date: "2024-01-05"
 - Futari de koi wo suru riyuu
 - Miss Not-so sidekick 
 
+
+## 2024
+#### Graphic Novels
+##### March
+- All you need is kill ~ Hiroshi Sakirazaka
+##### April
+- Deemo prelude ~ Niwa Haruki
+##### August 
+- Senpai wa otokonoko ~ Pom
+##### October
+- Gyo ~ Junji Ito
+##### November
+- Nina the starry bride ~ Rikachi
+##### December 
+- The water dragon’s bride ~ Tomai Rei

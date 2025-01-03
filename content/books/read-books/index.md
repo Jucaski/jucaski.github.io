@@ -535,6 +535,35 @@ date: 2023-07-11
 #### Books
 ##### January
 - La limpieza étnica de palestina ~ Ilan Pappé
+##### March
+- Circe ~ Madeline Miller 
+##### April
+- Guía del autoestopista galáctico ~ Douglas Adams 
+- Coraline ~ Neil Gaiman
+- Escuadrón ~ Brandon Sanderson
+##### May
+- Manual de limpieza de un monje budista ~ Shoukei Matsumoto 
+- Budismo ~ Alan Watts
+- El libro de las maravillas ~ Marco Polo
+- La vuelta al mundo en 80 días ~ Julio Verne
+##### June
+- Heaven official’s blessing 1 ~ Mo Xiang Tong Xiu
+- La noche se me fue de las manos ~ Max Ehrsan
+- El guardián invisible ~ Dolores Redondo
+- Understanding the machine ~ Randall Hyde
+- Skills of a software engineer ~ Fernando Doglio
+- A short stay in hell ~ Steven L. Peck
+- The passionate programmer ~ Chad Fowler
+##### July
+- Nunca me abandones ~ Kazuo Ishiguro 
+##### August
+- La piedra del sol ~ Deborah P. Gomez
+##### November
+- Hábitos atómicos ~ James Clear
+##### December
+- El infinito en un junco ~ Irene Vallejo
+- Ultralearning ~ Scott H. Young
+- How to become a straight a student ~ Cal Newport
 
 
 #### Audiobooks
@@ -548,4 +577,49 @@ date: 2023-07-11
 - How to build self-discipline ~ Martin Meadowns
 - How to promote yourself ~ Wallace D. Wattles
 - Lucky person syndrome ~ Ngaslife collection 
+
+##### February 
+- Silence ~ Thich Nhat Hanh
+- El gato que venía del cielo ~ Takashi Hiraide
+- Don't believe everything you think ~ Joseph Nguyen
+- Fahrenheit 451~ Ray Bradbury 
+- Buddhism for beginners ~ Sam Siv
+- Zen mind beginners mind ~ Shunryu Suzuki
+- You are here ~ Thich Nhat Hanh
+- The creative act ~ Rick Rubin
+##### March 
+- The goal ~ Eliyahu Goldratt
+##### April 
+- El lenguaje del cuerpo ~ Allan Pease
+- La familia de tío Jeremy ~ Arthur Conan Doyle 
+##### May
+- Y ningún pájaro canta ~ Edward Frederic Benson
+- En un espejo ~ Agatha Christie
+- La casa de los espíritus ~ Isabel Allende
+- Aino ~ Irene Nemirovsky
+- La perla negra ~ Maurice Leblanc
+##### June
+- Persuasión ~ Jane Austen 
+##### July
+- Klara y el sol ~ Kazuo Ishiguro
+##### August
+- You become what you think ~ Justice O. Malcolm
+##### September
+- El plan infinito ~ Isabel Allende 
+- Audición ~ Ryu Murakami
+##### October
+- American psycho ~ Bret Easton Ellis
+- Másters del multiverso ~ Sergi Escolano
+- El cuento más hermoso del mundo ~ Rudyard Kipling
+- El pescador y su alma ~ Oscar Wilde
+- El país de los ciegos ~ H. G. Wells
+- Un ángel ~ Antón Chéjov
+- El arte de la felicidad ~ Howard C. Cutler & Dalai Lama
+- El prisionero del Cáucaso ~ León Tolstói
+- Entrevista con el vampiro ~ Anne Rice
+#####     November
+- Rebelión en la granja ~  George Orwell 
+#####     December 
+- What it seems ~ Emily Bleeker
+- The waiting room ~ Emily Bleeker 
 
