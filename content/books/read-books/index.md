@@ -623,3 +623,8 @@ date: 2023-07-11
 - What it seems ~ Emily Bleeker
 - The waiting room ~ Emily Bleeker 
 
+## 2025
+#### Books
+##### January
+- DevOps for the Desperate ~ Bradley Smith
+- Paprika ~ Yasutaka Tsutsui
