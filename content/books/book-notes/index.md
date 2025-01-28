@@ -37,4 +37,32 @@ You have to be passionate about your work if you want to be great at your work. 
 
 > "Ask for a fish ; eat for today. Ask someone to teach you to fish; eat for a lifetime" Better yet, don't ask to be taught-go learn yourself
 
-Use Open source option as the platform from which you can take a deep dive into a technology. 
+Ask questions about how the product works and why? Why does this have to work this way? an example: How does my compiler deal with dynamic vs static linking?
+
+Use Open source option as the platform from which you can take a deep dive into a technology. And also find new code with witch to practice
+
+Practice your code skills by making constraints. How small, how fast can you write a program, can you write a program without doing variable assignments?
+
+---
+Check: Topcoder.com / codekata.pragprog
+---
+
+~If you can't do the process you can't the product.
+
+~You can study by doing. When working with open source code you can answer question like: How do other programmers solve that particular problem?
+
+> " To be successful, raw ability will get you only so far. The final stretch is populated by closers - people who finish things"
+
+> "You can do it faster, you can do it now, you can get it done instead of talking about getting it done."
+
+
+~ Don't get comfortable,  always be the one to ask - But what can we do right now?
+
+Boring tasks are boring because they don't represent a challenge.
+
+"Humility is not just something to claim to be more spiritual. It also allows to see things more clearly"
+
+Feeling irreplaceable is something bad, that means you do things in a way other can't in software development this is a bad sign
+
+
+
