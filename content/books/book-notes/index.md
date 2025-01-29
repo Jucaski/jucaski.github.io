@@ -65,4 +65,7 @@ Boring tasks are boring because they don't represent a challenge.
 Feeling irreplaceable is something bad, that means you do things in a way other can't in software development this is a bad sign
 
 
+When it comes to work, you can spend 8 hours to fully focus and fish your tasks in only 8 hours, that way you can have a good night sleep!
 
+"heroes never panic"
+Keep a panic journal. The key to catching a panic before it happens is to develop a heightened real-time awareness of your perception and emotions as they happen
